@@ -22,6 +22,8 @@ describe "PigLatin" do
       it "should add 'way' to the end of word" do
         result = PigLatin.moderator("alway")
         result.should == "alwayway"
+        result = PigLatin.moderator("aye")
+        result.should == "ayeway"
       end
     end
   end
