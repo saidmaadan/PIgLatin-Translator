@@ -13,6 +13,8 @@ module PigLatin
       input[2..-1] + input[0..1] + 'ay'
     elsif consonants.include?(input[0])
       input[1..-1] + input[0] + 'ay'
+    # elsif input[0] == 'y'
+    #   input[1, input.size] + 'yay'
     else
      return input
     end

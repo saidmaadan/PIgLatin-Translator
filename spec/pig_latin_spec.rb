@@ -34,7 +34,8 @@ describe "PigLatin" do
       it "translates y a word" do
         result = PigLatin.moderator('rhythm')
         result.should == "ythmrhay"
-
+        result = PigLatin.moderator('allayer')
+        result.should == "yerallaay"
       end
     end
   end

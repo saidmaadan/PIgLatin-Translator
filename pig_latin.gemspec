@@ -6,11 +6,11 @@ require 'pig_latin/version'
 Gem::Specification.new do |spec|
   spec.name          = "pig_latin"
   spec.version       = PigLatin::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.authors       = ["Said Maadan"]
+  spec.email         = ["said@maadan.me"]
+  spec.summary       = %q{Translator App.}
+  spec.description   = %q{Language Translator Application gem}
+  spec.homepage      = "http://maadan.me"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
